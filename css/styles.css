@@ -13,8 +13,12 @@ body  {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.container {
   
 }
+
 .logo-web, 
 .logo-studio,
 .logo-white {
