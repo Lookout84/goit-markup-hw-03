@@ -251,6 +251,19 @@ body  {
   margin-right: 0;
 }
 
+.clients-link .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+  width: calc((100% - 10px * 5) / 6);
+}
+
+.clients-item:nth-child(6n) {
+  margin-right: 0;
+}
+
 .address {
   font-style: normal;
 }
@@ -258,10 +271,28 @@ body  {
 .addr {
   font-weight: 400;
   color: var(--accent-color-white);
+  margin-bottom: 9px;
 }
 
 .footer {
   background-color: #2F303A;
+}
+
+.logo-footer {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.foter-box-item {
+  width: calc((100% - 30px * 2) / 3);
+}
+
+.foter-box-item:nth-child(3) {
+  margin-right: 60px;
+}
+
+.social-footer .flexbox {
+  justify-content: flex-start;
 }
 
 .logo-white {
@@ -273,6 +304,7 @@ body  {
   font-size: 14px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .footer-title {
