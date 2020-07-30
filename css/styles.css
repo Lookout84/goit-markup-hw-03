@@ -283,11 +283,11 @@ body  {
   margin-bottom: 20px;
 }
 
-.foter-box-item {
+.footer-box-item {
   width: calc((100% - 30px * 2) / 3);
 }
 
-.foter-box-item:nth-child(3) {
+.footer-box-item:nth-child(3) {
   margin-right: 60px;
 }
 
