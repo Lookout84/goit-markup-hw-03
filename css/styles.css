@@ -210,6 +210,10 @@ body  {
   margin-right: 0;
 }
 
+.work-img {
+  display: block;
+}
+
 .team-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
@@ -227,6 +231,10 @@ body  {
   margin: 0;
   text-align: center;
 }
+
+.team-img {
+  display: block;
+} 
 
 .profession {
   font-weight: 400;
@@ -307,6 +315,7 @@ body  {
   margin: 0;
   padding: 12px;
   margin-right: 10px;
+  display: block;
 }
 
 
@@ -392,6 +401,7 @@ body  {
 
 .portfolio-img {
   margin: 0 0 20px;
+  display: block;
 }
 
 .project-title {
