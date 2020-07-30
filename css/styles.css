@@ -21,7 +21,7 @@ body  {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 
 .flexbox {
@@ -175,10 +175,6 @@ body  {
 .features-item:nth-child(4n) {
   margin-right: 0;
 }
-
-/*.features-link:not(:last-child) {
-  margin-right: 10px;
-}*/
 
 .features-img {
   margin-bottom: 20px;
