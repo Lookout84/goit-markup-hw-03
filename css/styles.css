@@ -39,7 +39,7 @@ body  {
   padding: 24px 0px;
 }
 
-.menu-link current{
+.menu-link.current{
   color: var(--accent-color);
 }
 
