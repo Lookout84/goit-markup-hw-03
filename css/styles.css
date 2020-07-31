@@ -39,6 +39,10 @@ body  {
   padding: 24px 0px;
 }
 
+.menu-link current{
+  color: var(--accent-color);
+}
+
 .logo-web, 
 .logo-studio,
 .logo-white {
