@@ -139,8 +139,8 @@ body  {
   color: var(--accent-color-white);
   background-color: var(--accent-color);
   padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0;
+  border-color: transparent;
 }
 
 .section-title {
@@ -217,9 +217,16 @@ body  {
   display: block;
 }
 
+.our-team {
+  background-color: #F5F4FA;
+}
+
 .team-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
+  background-color: var(--accent-color-white);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:nth-child(4n) {
@@ -230,13 +237,14 @@ body  {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
-  padding: 30px 0 10px;
-  margin: 0;
+  margin: 0 0 10px;
   text-align: center;
 }
 
 .team-img {
   display: block;
+  margin: 0 0 30px;
+  width: 100%;
 } 
 
 .profession {
@@ -244,8 +252,7 @@ body  {
   font-size: 16px;
   line-height: 1.1875;
   color: var(--grey-text-color);
-  margin: 0;
-  padding: 0 0 16px;
+  margin: 0 0 16px;
   text-align: center;
 }
 
@@ -263,18 +270,29 @@ body  {
   margin-right: 0;
 }
 
-.clients-link .flexbox {
+.clients-link {
   display: flex;
   justify-content: space-between;
 }
 
 .clients-item {
   width: calc((100% - 10px * 5) / 6);
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  text-align: center;
 }
 
 .clients-item:nth-child(6n) {
   margin-right: 0;
 }
+
+.clients-img {
+  margin-top: 20px;
+}
+
 
 .address {
   font-style: normal;
@@ -377,7 +395,10 @@ body  {
 
 .project-item {
   width: calc((100% - 30px * 2) / 3);
-  margin-right: 30px;
+  margin-right: 24px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .project-item:nth-child(3n) {
@@ -409,8 +430,9 @@ body  {
 }
 
 .portfolio-img {
-  margin: 0 0 20px;
   display: block;
+  margin: 0 0 20px;
+  width: 100%;  
 }
 
 .project-title {
@@ -418,7 +440,7 @@ body  {
   font-size: 18px;
   line-height: 2.00;
   color: var(--main-color);
-  margin: 0 0 4px;
+  margin: 0 0 4px 24px;
 }
 
 .project-link {
@@ -430,7 +452,7 @@ body  {
   font-size: 16px;
   line-height: 1.875;
   color: var(--grey-text-color);
-  margin: 0 0 20px;
+  margin: 0 0 20px 24px;
 }
 
 .project-description {
