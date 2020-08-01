@@ -76,6 +76,10 @@ body  {
   display: flex;
 }
 
+.menu-item {
+  display: block;
+}
+
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
